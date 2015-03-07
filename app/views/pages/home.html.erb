@@ -1,0 +1,13 @@
+<h1> This is the home page of Cat. </h1>
+
+<% @catlist.each do |cat| %>
+	<p> <%= cat.name %> is <%= cat %> </p>
+<% end %>
+
+<% @userlist.each do |user| %>
+	<p> <%= user.username %> is <%= user %> </p>
+<% end %>
+
+<% @todolist.each do |todo| %>
+	<p> <%= todo.name %> is <%= todo %> </p>
+<% end %>
